@@ -9,25 +9,9 @@ body {
   justify-items: center;
 }
 
-.progress__options {
-  display: grid;
-  grid-template-columns: 45vw 45vw;
-  grid-row-gap: 2vh;
-  align-items: center;
-  justify-items: center;
-}
-
-.progress__input {
-  max-width: 72px;
-  height: 38px;
-  border-radius: 40px;
-  border: 2px solid #bfbfbf;
-  text-align: center;
-}
-
 .progress__bar {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   background: radial-gradient(closest-side, white 79%, transparent 0% 100%),
     conic-gradient(#2259f4 0%, #bfbfbf 0);
@@ -43,6 +27,22 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.2s, visibility 0s linear 0.2s;
+}
+
+.progress__options {
+  display: grid;
+  grid-template-columns: 45vw 45vw;
+  grid-row-gap: 2vh;
+  align-items: center;
+  justify-items: center;
+}
+
+.progress__input {
+  max-width: 72px;
+  height: 38px;
+  border-radius: 40px;
+  border: 2px solid #bfbfbf;
+  text-align: center;
 }
 
 .progress__checkbox {
